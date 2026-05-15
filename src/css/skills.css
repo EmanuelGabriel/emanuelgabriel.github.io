@@ -38,6 +38,5 @@
 .skill-git { color: #F03C2E; }
 .skill-eclipse { color: #2C2255; }
 .skill-netbeans { color: #1B6AC6; }
-.skill-intellij { color: #000000; }
-
-.dark .skill-intellij { color: #ffffff; }
+.skill-intellij { color: #087CFA; }
+.skill-vscode { color: #007ACC; }
