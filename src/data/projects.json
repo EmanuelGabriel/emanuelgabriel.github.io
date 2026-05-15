@@ -1,61 +1,61 @@
 [
   {
     "id": 1,
+    "title": "Bot Carta de Recomendação",
+    "description": "Sistema web completo para geração e gestão de cartas de recomendação via Telegram. Painel administrativo com dashboard de métricas, histórico de cartas geradas, filtros por tipo e paginação. Integração com bot Telegram para geração automatizada.",
+    "image": "https://ata-bot-app.onrender.com/",
+    "tags": ["Java", "Spring Boot", "Thymeleaf", "PostgreSQL", "Telegram Bot API"],
+    "category": "web",
+    "demoUrl": "https://ata-bot-app.onrender.com/",
+    "repoUrl": "#"
+  },
+  {
+    "id": 2,
+    "title": "COVID-19 Estatísticas Brasil",
+    "description": "Aplicativo mobile cross-platform para acompanhamento em tempo real das estatísticas do COVID-19 nos estados brasileiros e no Brasil. Interface com gráficos, filtros por estado e dados atualizados via API.",
+    "image": "https://github.com/robsonsilv4/covid19_statistics",
+    "tags": ["Flutter", "Dart", "MobX", "Dio", "API REST"],
+    "category": "mobile",
+    "demoUrl": "#",
+    "repoUrl": "https://github.com/robsonsilv4/covid19_statistics"
+  },
+  {
+    "id": 3,
     "title": "SGSTECH Platform",
     "description": "Plataforma corporativa para gestão de projetos e soluções tecnológicas, com dashboard interativo e relatórios em tempo real.",
-    "image": "/assets/images/projects/project-1.jpg",
-    "tags": ["React", "Node.js", "PostgreSQL", "Docker"],
+    "image": "/assets/images/projects/project-3.jpg",
+    "tags": ["Java", "Spring Boot", "Angular", "PostgreSQL"],
     "category": "web",
     "demoUrl": "#",
     "repoUrl": "#"
   },
   {
-    "id": 2,
-    "title": "App Mobilidade",
-    "description": "Aplicativo mobile para gestão de mobilidade urbana, com interface intuitiva e integração com APIs de transporte.",
-    "image": "/assets/images/projects/project-2.jpg",
-    "tags": ["React Native", "Firebase", "Maps API"],
-    "category": "mobile",
-    "demoUrl": "#",
-    "repoUrl": "#"
-  },
-  {
-    "id": 3,
-    "title": "API Gateway",
-    "description": "Gateway de APIs para microserviços com autenticação JWT, rate limiting e monitoramento em tempo real.",
-    "image": "/assets/images/projects/project-3.jpg",
-    "tags": ["Node.js", "Express", "Redis", "JWT"],
-    "category": "backend",
-    "demoUrl": "#",
-    "repoUrl": "#"
-  },
-  {
     "id": 4,
-    "title": "E-commerce Moderno",
-    "description": "Loja virtual completa com carrinho, pagamentos integrados, painel administrativo e otimização SEO.",
+    "title": "Sistema de Gestão Empresarial",
+    "description": "Sistema ERP para gestão de empresas com módulos de finanças, estoque, RH e relatórios gerenciais.",
     "image": "/assets/images/projects/project-4.jpg",
-    "tags": ["Next.js", "Stripe", "Prisma", "Tailwind"],
+    "tags": ["Java", "JSF", "PrimeFaces", "Hibernate", "SQL Server"],
     "category": "web",
     "demoUrl": "#",
     "repoUrl": "#"
   },
   {
     "id": 5,
-    "title": "Dashboard Analytics",
-    "description": "Dashboard de analytics com gráficos interativos, filtros dinâmicos e exportação de relatórios.",
+    "title": "API Gateway Enterprise",
+    "description": "Gateway de APIs para microserviços com autenticação JWT, rate limiting e monitoramento em tempo real.",
     "image": "/assets/images/projects/project-5.jpg",
-    "tags": ["Vue.js", "D3.js", "Python", "FastAPI"],
-    "category": "web",
+    "tags": ["Java", "Spring Cloud", "Docker", "MongoDB"],
+    "category": "backend",
     "demoUrl": "#",
     "repoUrl": "#"
   },
   {
     "id": 6,
-    "title": "Sistema de Automação",
-    "description": "Sistema de automação de processos empresariais com workflows customizáveis e integrações via webhook.",
+    "title": "App Mobilidade Urbana",
+    "description": "Aplicativo mobile para gestão de mobilidade urbana, com interface intuitiva e integração com APIs de transporte.",
     "image": "/assets/images/projects/project-6.jpg",
-    "tags": ["TypeScript", "NestJS", "MongoDB", "RabbitMQ"],
-    "category": "backend",
+    "tags": ["Java", "Android", "Firebase", "Maps API"],
+    "category": "mobile",
     "demoUrl": "#",
     "repoUrl": "#"
   }
