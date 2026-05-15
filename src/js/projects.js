@@ -96,9 +96,11 @@ export function initProjects() {
   }
 
   function renderProjects(filter = 'all') {
-    const filtered = filter === 'all'
+    let filtered = filter === 'all'
       ? projectsData
       : projectsData.filter(p => p.category === filter);
+
+    filtered.sort((a, b) => (b.featured ? 1 : 0) - (a.featured ? 1 : 0));
 
     grid.innerHTML = '';
 
@@ -112,6 +114,7 @@ export function initProjects() {
 
       card.innerHTML = `
         <div class="aspect-video bg-dark-700 relative overflow-hidden">
+          ${project.featured ? '<div class="absolute top-3 left-3 z-20 px-3 py-1 bg-primary text-white text-xs font-semibold rounded-full">Destaque</div>' : ''}
           ${getProjectImage(project)}
         </div>
         <div class="p-6">

@@ -1,6 +1,25 @@
 [
   {
     "id": 1,
+    "title": "Sistema de Gerenciamento de Pautas de Comissão",
+    "description": "Sistema completo para gestão e organização de pautas de comissões. Permite criação, edição e acompanhamento de reuniões, com controle de membros, documentos e deliberações. Interface moderna com dashboard de métricas e relatórios detalhados.",
+    "images": [
+      "/assets/images/projects/pauta-comissao/dashboard.png",
+      "/assets/images/projects/pauta-comissao/pautas.png",
+      "/assets/images/projects/pauta-comissao/detalhes.png",
+      "/assets/images/projects/pauta-comissao/formulario.png",
+      "/assets/images/projects/pauta-comissao/lista.png",
+      "/assets/images/projects/pauta-comissao/relatorios.png",
+      "/assets/images/projects/pauta-comissao/configuracoes.png"
+    ],
+    "tags": ["Java", "Spring Boot", "Angular", "PostgreSQL", "REST API"],
+    "category": "web",
+    "featured": true,
+    "demoUrl": "#",
+    "repoUrl": "#"
+  },
+  {
+    "id": 2,
     "title": "Bot Carta de Recomendação",
     "description": "Sistema web completo para geração e gestão de cartas de recomendação via Telegram. Painel administrativo com dashboard de métricas, histórico de cartas geradas, filtros por tipo e paginação.",
     "images": [
@@ -12,7 +31,7 @@
     "repoUrl": "#"
   },
   {
-    "id": 2,
+    "id": 3,
     "title": "COVID-19 Estatísticas Brasil",
     "description": "Aplicativo mobile cross-platform para acompanhamento em tempo real das estatísticas do COVID-19 nos estados brasileiros. 34 stars no GitHub, com gráficos, filtros por estado e dados atualizados via API.",
     "images": [
@@ -27,7 +46,7 @@
     "repoUrl": "https://github.com/robsonsilv4/covid19_statistics"
   },
   {
-    "id": 3,
+    "id": 4,
     "title": "Sistema de Gestores Inabilitados - TCE-PI",
     "description": "Sistema oficial do Tribunal de Contas do Estado do Piauí para consulta de gestores inabilitados. Plataforma pública para transparência e controle de cargos públicos.",
     "images": [
