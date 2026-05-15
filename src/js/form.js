@@ -18,21 +18,17 @@ export function initContactForm() {
     const formData = new FormData(form);
     const data = Object.fromEntries(formData.entries());
 
-    try {
-      const response = await fetch('https://formspree.io/f/your-form-id', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify(data),
-      });
+    const subject = encodeURIComponent(`Contato via Portfólio: ${data.name}`);
+    const body = encodeURIComponent(
+      `Nome: ${data.name}\nE-mail: ${data.email}\n\nMensagem:\n${data.message}`
+    );
+    const mailtoLink = `mailto:emanuelgabriel.dev@gmail.com?subject=${subject}&body=${body}`;
 
-      if (response.ok) {
-        formSuccess.classList.remove('hidden');
-        form.reset();
-      } else {
-        throw new Error('Erro no envio');
-      }
+    try {
+      window.location.href = mailtoLink;
+
+      formSuccess.classList.remove('hidden');
+      form.reset();
     } catch (error) {
       formError.classList.remove('hidden');
     } finally {
