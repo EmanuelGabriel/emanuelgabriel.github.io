@@ -7,6 +7,8 @@ export function initContactForm() {
   const formError = document.getElementById('form-error');
 
   function validateField(field) {
+    if (field.tagName === 'SELECT') return true;
+
     const value = field.value.trim();
     let isValid = true;
     let errorMessage = '';
@@ -76,8 +78,9 @@ export function initContactForm() {
     const data = Object.fromEntries(formData.entries());
 
     const subject = encodeURIComponent(`Contato via Portfólio: ${data.name}`);
+    const contactType = data['contact-type'] ? `\nTipo de Contato: ${data['contact-type']}` : '';
     const body = encodeURIComponent(
-      `Nome: ${data.name}\nE-mail: ${data.email}\n\nMensagem:\n${data.message}`
+      `Nome: ${data.name}\nE-mail: ${data.email}${contactType}\n\nMensagem:\n${data.message}`
     );
     const mailtoLink = `mailto:emanuel.gabriel.sousa@hotmail.com?subject=${subject}&body=${body}`;
 
