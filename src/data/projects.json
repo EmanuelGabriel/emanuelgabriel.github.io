@@ -4,7 +4,7 @@
     "title": "Bot Carta de Recomendação",
     "description": "Sistema web completo para geração e gestão de cartas de recomendação via Telegram. Painel administrativo com dashboard de métricas, histórico de cartas geradas, filtros por tipo e paginação.",
     "images": [
-      "https://raw.githubusercontent.com/emanuelGabriel/portfolio-assets/main/ata-bot-dashboard.png"
+      "/assets/images/projects/ata-bot-dashboard.png"
     ],
     "tags": ["Java", "Spring Boot", "Thymeleaf", "PostgreSQL", "Telegram Bot API"],
     "category": "web",
@@ -31,7 +31,7 @@
     "title": "Sistema de Gestores Inabilitados - TCE-PI",
     "description": "Sistema oficial do Tribunal de Contas do Estado do Piauí para consulta de gestores inabilitados. Plataforma pública para transparência e controle de cargos públicos.",
     "images": [
-      "https://raw.githubusercontent.com/emanuelGabriel/portfolio-assets/main/tce-gestores-inabilitados.png"
+      "/assets/images/projects/tce-gestores-inabilitados.png"
     ],
     "tags": ["Java", "JavaEE", "JSF", "PrimeFaces", "PostgreSQL"],
     "category": "web",
