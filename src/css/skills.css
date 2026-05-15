@@ -15,9 +15,6 @@
 }
 
 .skill-java { color: #f89820; }
-.skill-icon[src].skill-java {
-  filter: brightness(0) saturate(100%) invert(62%) sepia(93%) saturate(600%) hue-rotate(10deg);
-}
 .skill-spring { color: #6DB33F; }
 .skill-jpa { color: #6366f1; }
 .skill-hibernate { color: #59666C; }
@@ -30,6 +27,7 @@
 .skill-javascript { color: #F7DF1E; }
 .skill-typescript { color: #3178C6; }
 .skill-postgresql { color: #4169E1; }
+.skill-mysql { color: #4479A1; }
 .skill-mongodb { color: #47A248; }
 .skill-sqlserver { color: #cc2927; }
 .skill-docker { color: #2496ED; }
