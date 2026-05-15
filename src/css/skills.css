@@ -1,0 +1,32 @@
+.skill-icon {
+  width: 2rem;
+  height: 2rem;
+  transition: transform 0.3s ease;
+}
+
+.group:hover .skill-icon {
+  transform: scale(1.1);
+}
+
+.skill-java { color: #f89820; }
+.skill-spring { color: #6DB33F; }
+.skill-jpa { color: #6366f1; }
+.skill-hibernate { color: #59666C; }
+.skill-javaee { color: #f89820; }
+.skill-jakartaee { color: #e76f00; }
+.skill-node { color: #5FA04E; }
+.skill-angular { color: #DD0031; }
+.skill-jsf { color: #e76f00; }
+.skill-primefaces { color: #8b5cf6; }
+.skill-javascript { color: #F7DF1E; }
+.skill-typescript { color: #3178C6; }
+.skill-postgresql { color: #4169E1; }
+.skill-mongodb { color: #47A248; }
+.skill-sqlserver { color: #cc2927; }
+.skill-docker { color: #2496ED; }
+.skill-git { color: #F03C2E; }
+.skill-eclipse { color: #2C2255; }
+.skill-netbeans { color: #1B6AC6; }
+.skill-intellij { color: #000000; }
+
+.dark .skill-intellij { color: #ffffff; }
