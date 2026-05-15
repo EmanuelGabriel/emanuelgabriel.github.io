@@ -20,6 +20,20 @@
   },
   {
     "id": 2,
+    "title": "Sistema de Controle de Licenças de Software",
+    "description": "Plataforma enterprise para gerenciamento e validação de licenças de software. Controle centralizado de chaves de ativação, validação em tempo real, bloqueio de usuários sem licença válida e dashboard administrativo com métricas de uso e expiração.",
+    "images": [
+      "/assets/images/projects/license-manager/dashboard.png",
+      "/assets/images/projects/license-manager/licenses.png"
+    ],
+    "tags": ["Java", "Spring Boot", "JWT", "PostgreSQL", "REST API"],
+    "category": "web",
+    "featured": true,
+    "demoUrl": "#",
+    "repoUrl": "#"
+  },
+  {
+    "id": 3,
     "title": "Bot Carta de Recomendação",
     "description": "Sistema web completo para geração e gestão de cartas de recomendação via Telegram. Painel administrativo com dashboard de métricas, histórico de cartas geradas, filtros por tipo e paginação.",
     "images": [
@@ -31,7 +45,7 @@
     "repoUrl": "#"
   },
   {
-    "id": 3,
+    "id": 4,
     "title": "COVID-19 Estatísticas Brasil",
     "description": "Aplicativo mobile cross-platform para acompanhamento em tempo real das estatísticas do COVID-19 nos estados brasileiros. 34 stars no GitHub, com gráficos, filtros por estado e dados atualizados via API.",
     "images": [
@@ -46,7 +60,7 @@
     "repoUrl": "https://github.com/robsonsilv4/covid19_statistics"
   },
   {
-    "id": 4,
+    "id": 5,
     "title": "Sistema de Gestores Inabilitados - TCE-PI",
     "description": "Sistema oficial do Tribunal de Contas do Estado do Piauí para consulta de gestores inabilitados. Plataforma pública para transparência e controle de cargos públicos.",
     "images": [
