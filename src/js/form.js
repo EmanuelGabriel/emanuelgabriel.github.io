@@ -22,7 +22,7 @@ export function initContactForm() {
     const body = encodeURIComponent(
       `Nome: ${data.name}\nE-mail: ${data.email}\n\nMensagem:\n${data.message}`
     );
-    const mailtoLink = `mailto:emanuelgabriel.dev@gmail.com?subject=${subject}&body=${body}`;
+    const mailtoLink = `mailto:emanuel.gabriel.sousa@hotmail.com?subject=${subject}&body=${body}`;
 
     try {
       window.location.href = mailtoLink;
