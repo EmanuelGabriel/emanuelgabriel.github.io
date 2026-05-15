@@ -2,8 +2,10 @@
   {
     "id": 1,
     "title": "Bot Carta de Recomendação",
-    "description": "Sistema web completo para geração e gestão de cartas de recomendação via Telegram. Painel administrativo com dashboard de métricas, histórico de cartas geradas, filtros por tipo e paginação. Integração com bot Telegram para geração automatizada.",
-    "image": "https://ata-bot-app.onrender.com/",
+    "description": "Sistema web completo para geração e gestão de cartas de recomendação via Telegram. Painel administrativo com dashboard de métricas, histórico de cartas geradas, filtros por tipo e paginação.",
+    "images": [
+      "https://raw.githubusercontent.com/emanuelGabriel/portfolio-assets/main/ata-bot-dashboard.png"
+    ],
     "tags": ["Java", "Spring Boot", "Thymeleaf", "PostgreSQL", "Telegram Bot API"],
     "category": "web",
     "demoUrl": "https://ata-bot-app.onrender.com/",
@@ -12,8 +14,13 @@
   {
     "id": 2,
     "title": "COVID-19 Estatísticas Brasil",
-    "description": "Aplicativo mobile cross-platform para acompanhamento em tempo real das estatísticas do COVID-19 nos estados brasileiros e no Brasil. Interface com gráficos, filtros por estado e dados atualizados via API.",
-    "image": "https://github.com/robsonsilv4/covid19_statistics",
+    "description": "Aplicativo mobile cross-platform para acompanhamento em tempo real das estatísticas do COVID-19 nos estados brasileiros. 34 stars no GitHub, com gráficos, filtros por estado e dados atualizados via API.",
+    "images": [
+      "https://raw.githubusercontent.com/robsonsilv4/covid19_statistics/master/screenshots/01.png",
+      "https://raw.githubusercontent.com/robsonsilv4/covid19_statistics/master/screenshots/02.png",
+      "https://raw.githubusercontent.com/robsonsilv4/covid19_statistics/master/screenshots/03_map.png",
+      "https://raw.githubusercontent.com/robsonsilv4/covid19_statistics/master/screenshots/04.png"
+    ],
     "tags": ["Flutter", "Dart", "MobX", "Dio", "API REST"],
     "category": "mobile",
     "demoUrl": "#",
@@ -21,42 +28,14 @@
   },
   {
     "id": 3,
-    "title": "SGSTECH Platform",
-    "description": "Plataforma corporativa para gestão de projetos e soluções tecnológicas, com dashboard interativo e relatórios em tempo real.",
-    "image": "/assets/images/projects/project-3.jpg",
-    "tags": ["Java", "Spring Boot", "Angular", "PostgreSQL"],
+    "title": "Sistema de Gestores Inabilitados - TCE-PI",
+    "description": "Sistema oficial do Tribunal de Contas do Estado do Piauí para consulta de gestores inabilitados. Plataforma pública para transparência e controle de cargos públicos.",
+    "images": [
+      "https://raw.githubusercontent.com/emanuelGabriel/portfolio-assets/main/tce-gestores-inabilitados.png"
+    ],
+    "tags": ["Java", "JavaEE", "JSF", "PrimeFaces", "PostgreSQL"],
     "category": "web",
-    "demoUrl": "#",
-    "repoUrl": "#"
-  },
-  {
-    "id": 4,
-    "title": "Sistema de Gestão Empresarial",
-    "description": "Sistema ERP para gestão de empresas com módulos de finanças, estoque, RH e relatórios gerenciais.",
-    "image": "/assets/images/projects/project-4.jpg",
-    "tags": ["Java", "JSF", "PrimeFaces", "Hibernate", "SQL Server"],
-    "category": "web",
-    "demoUrl": "#",
-    "repoUrl": "#"
-  },
-  {
-    "id": 5,
-    "title": "API Gateway Enterprise",
-    "description": "Gateway de APIs para microserviços com autenticação JWT, rate limiting e monitoramento em tempo real.",
-    "image": "/assets/images/projects/project-5.jpg",
-    "tags": ["Java", "Spring Cloud", "Docker", "MongoDB"],
-    "category": "backend",
-    "demoUrl": "#",
-    "repoUrl": "#"
-  },
-  {
-    "id": 6,
-    "title": "App Mobilidade Urbana",
-    "description": "Aplicativo mobile para gestão de mobilidade urbana, com interface intuitiva e integração com APIs de transporte.",
-    "image": "/assets/images/projects/project-6.jpg",
-    "tags": ["Java", "Android", "Firebase", "Maps API"],
-    "category": "mobile",
-    "demoUrl": "#",
+    "demoUrl": "https://sistemas.tce.pi.gov.br/gestores-inabilitados/gestores-inabilitados/atuais",
     "repoUrl": "#"
   }
 ]
