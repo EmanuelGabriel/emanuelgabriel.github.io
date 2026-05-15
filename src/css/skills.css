@@ -5,14 +5,19 @@
 }
 
 .skill-icon[src] {
-  width: 2.5rem;
-  height: 2.5rem;
+  width: 2rem;
+  height: 2rem;
+  object-fit: contain;
 }
 
 .group:hover .skill-icon {
   transform: scale(1.1);
 }
 
+.skill-java { color: #f89820; }
+.skill-icon[src].skill-java {
+  filter: brightness(0) saturate(100%) invert(62%) sepia(93%) saturate(600%) hue-rotate(10deg);
+}
 .skill-spring { color: #6DB33F; }
 .skill-jpa { color: #6366f1; }
 .skill-hibernate { color: #59666C; }
