@@ -30,17 +30,14 @@
 .skill-mysql { color: #4479A1; }
 .skill-mongodb { color: #47A248; }
 .skill-sqlserver { color: #cc2927; }
-.skill-kafka { color: #231F20; }
+.skill-kafka { color: #E94E23; }
 .skill-rabbitmq { color: #FF6600; }
-.skill-openai { color: #000000; }
-.skill-ollama { color: #000000; }
+.skill-openai { color: #10A37F; }
+.skill-ollama { color: #6366F1; }
 .skill-docker { color: #2496ED; }
 .skill-git { color: #F03C2E; }
 .skill-eclipse { color: #2C2255; }
 .skill-netbeans { color: #1B6AC6; }
 .skill-intellij { color: #000000; }
 
-.dark .skill-kafka { color: #ffffff; }
-.dark .skill-openai { color: #ffffff; }
-.dark .skill-ollama { color: #ffffff; }
 .dark .skill-intellij { color: #ffffff; }
