@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "title": "SGSTECH Platform",
+    "description": "Plataforma corporativa para gestão de projetos e soluções tecnológicas, com dashboard interativo e relatórios em tempo real.",
+    "image": "/assets/images/projects/project-1.jpg",
+    "tags": ["React", "Node.js", "PostgreSQL", "Docker"],
+    "category": "web",
+    "demoUrl": "#",
+    "repoUrl": "#"
+  },
+  {
+    "id": 2,
+    "title": "App Mobilidade",
+    "description": "Aplicativo mobile para gestão de mobilidade urbana, com interface intuitiva e integração com APIs de transporte.",
+    "image": "/assets/images/projects/project-2.jpg",
+    "tags": ["React Native", "Firebase", "Maps API"],
+    "category": "mobile",
+    "demoUrl": "#",
+    "repoUrl": "#"
+  },
+  {
+    "id": 3,
+    "title": "API Gateway",
+    "description": "Gateway de APIs para microserviços com autenticação JWT, rate limiting e monitoramento em tempo real.",
+    "image": "/assets/images/projects/project-3.jpg",
+    "tags": ["Node.js", "Express", "Redis", "JWT"],
+    "category": "backend",
+    "demoUrl": "#",
+    "repoUrl": "#"
+  },
+  {
+    "id": 4,
+    "title": "E-commerce Moderno",
+    "description": "Loja virtual completa com carrinho, pagamentos integrados, painel administrativo e otimização SEO.",
+    "image": "/assets/images/projects/project-4.jpg",
+    "tags": ["Next.js", "Stripe", "Prisma", "Tailwind"],
+    "category": "web",
+    "demoUrl": "#",
+    "repoUrl": "#"
+  },
+  {
+    "id": 5,
+    "title": "Dashboard Analytics",
+    "description": "Dashboard de analytics com gráficos interativos, filtros dinâmicos e exportação de relatórios.",
+    "image": "/assets/images/projects/project-5.jpg",
+    "tags": ["Vue.js", "D3.js", "Python", "FastAPI"],
+    "category": "web",
+    "demoUrl": "#",
+    "repoUrl": "#"
+  },
+  {
+    "id": 6,
+    "title": "Sistema de Automação",
+    "description": "Sistema de automação de processos empresariais com workflows customizáveis e integrações via webhook.",
+    "image": "/assets/images/projects/project-6.jpg",
+    "tags": ["TypeScript", "NestJS", "MongoDB", "RabbitMQ"],
+    "category": "backend",
+    "demoUrl": "#",
+    "repoUrl": "#"
+  }
+]
